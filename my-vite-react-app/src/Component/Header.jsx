@@ -1,4 +1,5 @@
 import React from "react";
+import { FaSearch } from "react-icons/fa";
 
 import "./Header.css";
 
@@ -14,6 +15,19 @@ const Header = () => {
         <a href="#" className="nav-item">Companies</a>
         <a href="#" className="nav-item">Services</a>
       </nav>
+      <div className="search-section">
+        <input type="text" placeholder="Search jobs here" className="search-input" />
+        <button className="search-button">
+          <FaSearch />
+        </button>
+      </div>
+      <div className="auth-buttons">
+        <button className="login-button">Login</button>
+        <button className="register-button">Register</button>
+      </div>
+      <div className="employer-section">
+        <span className="employer-text">For employers ▼</span>
+      </div>
      
     </header>
   );
