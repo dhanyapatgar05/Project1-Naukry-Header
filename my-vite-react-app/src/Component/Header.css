@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 10px 20px;
-    background-color: #fff;
+    background-color: #f0eded;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
   }
   
@@ -25,35 +25,37 @@
   
   .nav-links {
     display: flex;
-    gap: 20px;
+    gap: 30px;
   }
   
   .nav-item {
     text-decoration: none;
-    color: #333;
-    font-size: 16px;
+    color: #656465;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
   }
   
   .search-section {
     display: flex;
     align-items: center;
-    background: #f2f2f2;
+    background: #FFFFFF;
     border-radius: 20px;
     padding: 5px;
+    border: 1px solid rgb(188, 186, 186);
   }
   
   .search-input {
     border: none;
     outline: none;
-    background: transparent;
+    background: #FFFFFF;
     padding: 5px;
   }
   
   .search-button {
     background: #3366cc;
     border: none;
-    color: white;
-    padding: 5px 10px;
+    color: #FFFFFF;
+    padding: 5px 8px;
     border-radius: 50%;
     cursor: pointer;
   }
@@ -65,9 +67,10 @@
   
   .login-button {
     background: white;
-    border: 1px solid #3366cc;
-    color: #3366cc;
+    border: 1px solid #4D6AD0;
+    color: #4D6AD0;
     padding: 5px 15px;
+    font-weight: bold;
     border-radius: 20px;
     cursor: pointer;
   }
@@ -76,6 +79,7 @@
     background: #ff5733;
     border: none;
     color: white;
+    font-weight: bold;
     padding: 5px 15px;
     border-radius: 20px;
     cursor: pointer;
@@ -83,5 +87,5 @@
   
   .employer-section {
     font-size: 16px;
-    color: #333;
+    color: #656465;
   }
