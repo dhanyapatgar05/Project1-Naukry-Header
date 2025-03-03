@@ -1,5 +1,5 @@
 import React from "react";
-import { FaSearch } from "react-icons/fa";
+import { FaSearch, FaChevronDown } from "react-icons/fa";
 
 import "./Header.css";
 
@@ -26,7 +26,8 @@ const Header = () => {
         <button className="register-button">Register</button>
       </div>
       <div className="employer-section">
-        <span className="employer-text">For employers ▼</span>
+        <span className="employer-text">For employers</span>
+        <FaChevronDown className="employer-icon" />
       </div>
      
     </header>

@@ -3,13 +3,15 @@
     align-items: center;
     justify-content: space-between;
     padding: 10px 20px;
-    background-color: #f0eded;
+    max-width: 1100px;
+    background-color: #fff;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
   }
   
   .logo-section {
     display: flex;
     align-items: center;
+    margin-left: 10px;
   }
   
   .logo {
@@ -86,6 +88,15 @@
   }
   
   .employer-section {
+    display: flex;
+    align-items: center;
     font-size: 16px;
+    margin-right: 10px;
     color: #656465;
+    gap: 5px;
   }
+  
+  .employer-icon {
+    font-size: 14px;
+  } 
+  
